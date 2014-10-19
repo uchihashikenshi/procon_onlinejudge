@@ -1,8 +1,9 @@
+#include <cstdio>
 #include <iostream>
 
 int main() {
-	int n, S;
-	std::cin >> n;
-	S = n*n/2 + n/2;
+	int x, S;
+	std::cin >> x;
+	S = x*x*x;
 	std::cout << S << "\n";
 }
